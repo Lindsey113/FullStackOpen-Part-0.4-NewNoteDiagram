@@ -29,3 +29,11 @@ https://studies.cs.helsinki.fi/exampleapp/data.JSON
     deactivate server
 
     Note: Browser executes callback function that renders notes
+
+
+
+CSS NOTE:
+html {
+    background-color: {color}
+}
+SETS THE ENTIRE BACKGROUND COLOR
