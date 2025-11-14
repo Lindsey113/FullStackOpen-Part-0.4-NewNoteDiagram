@@ -51,3 +51,9 @@ const [first, second, ...rest] = t
 console.log(first, second)  // 1 2 is printed
 console.log(rest)          // [3, 4, 5] is printed
 ---
+const object1 = {
+  name: 'Arto Hellas',
+  age: 35,                       //this is called an Object Literal
+  education: 'PhD',
+}
+---
