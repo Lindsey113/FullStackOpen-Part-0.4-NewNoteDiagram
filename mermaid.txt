@@ -37,3 +37,17 @@ html {
     background-color: {color}
 }
 SETS THE ENTIRE BACKGROUND COLOR
+
+REACT NOTE:
+Objects are not valid as a React child
+ex. <p>{friends[0].name} {friends[0].age}<\p> INSTEAD OF <p>{friends[0]}</p>
+
+MORE NOTES:
+---
+const t = [1, 2, 3, 4, 5]
+
+const [first, second, ...rest] = t
+
+console.log(first, second)  // 1 2 is printed
+console.log(rest)          // [3, 4, 5] is printed
+---
