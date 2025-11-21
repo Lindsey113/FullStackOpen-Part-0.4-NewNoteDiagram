@@ -84,3 +84,17 @@ State update in React happens Asynchronously, meaning not
 immediately but "at some point" after the current component function
 is finished, before the component is rendered again.
 ---
+When you use console.log for debugging, don't combine objects in a Java-like fashion by using the plus operator:
+
+console.log('props value is ' + props)
+
+If you do that, you will end up with a rather uninformative log message:
+
+props value is [object Object]
+
+Instead, separate the things you want to log to the console with a comma:
+
+console.log('props value is', props)
+
+In this way, the separated items will all be available in the browser console for further inspection.
+---
