@@ -77,5 +77,6 @@ but rather returns a new copy of the array with whatever
 was added onto it.
 ---
 DON'T USE PUSH, as it mutates the original array directly
-(dont do this with React!!!)
+(dont do this with React!!! This can work BUT can be very difficult to
+debug if things go wrong)
 ---
