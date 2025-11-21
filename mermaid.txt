@@ -65,4 +65,5 @@ const handleLeftClick = () => {
     clicks.left++ <----------------- big no no
     setClicks(clicks)
 }
+unexpected side effects can happen if state is directly mutated
 ---
