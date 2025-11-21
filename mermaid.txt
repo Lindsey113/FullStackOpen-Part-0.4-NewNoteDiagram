@@ -80,3 +80,6 @@ DON'T USE PUSH, as it mutates the original array directly
 (dont do this with React!!! This can work BUT can be very difficult to
 debug if things go wrong)
 ---
+State update in React happens Asynchronously, meaning not 
+immediately but "at some point"
+---
