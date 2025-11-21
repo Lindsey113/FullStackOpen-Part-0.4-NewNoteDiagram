@@ -57,3 +57,6 @@ const object1 = {
   education: 'PhD',
 }
 ---
+CALLING A FUNCTION THAT CHANGES THE STATE CAUSES
+THE COMPONENT TO RE-RENDER
+---
