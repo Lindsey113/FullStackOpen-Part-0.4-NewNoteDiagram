@@ -81,5 +81,6 @@ DON'T USE PUSH, as it mutates the original array directly
 debug if things go wrong)
 ---
 State update in React happens Asynchronously, meaning not 
-immediately but "at some point"
+immediately but "at some point" after the current component function
+is finished, before the component is rendered again.
 ---
